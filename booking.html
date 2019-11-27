@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="styles/css/styles.css" rel="stylesheet">
+    <link href="styles/CSS/styles.css" rel="stylesheet">
     <title>Tattooist</title>
   </head>
   <body class="body-pages">
@@ -28,22 +28,22 @@
   <ul>
   <li>
       <label for="name">Name</label>
-      <input type="text" name="name" maxlength="100" placeholder="Your Name" required>
+      <input type="text" name="name" maxlength="100" placeholder="Your Name" id="name" required>
   </li>
   <li>
       <label for="email">Email</label>
-      <input type="email" name="email" maxlength="100" placeholder ="address@email.com"required>
+      <input type="email" name="email" maxlength="100" placeholder ="address@email.com" id="email" required>
   </li>
   <li>
       <label for="text">Project Description</label>
-      <textarea type="text" name="project" placeholder="e.g. Subject, Size, bodyplacement" maxlength="500" required></textarea>
+      <textarea name="project" placeholder="e.g. Subject, Size, bodyplacement" maxlength="500" id="text" required></textarea>
   </li>
   <li>
       <label for="pics">Reference</label>
-      <input name="pics" type= "text" maxlength="300" placeholder="e.g. Dropbox, Pinterest, Instagram..." required>
+      <input name="pics" type= "text" maxlength="300" placeholder="e.g. Dropbox, Pinterest, Instagram..." id="pics" required>
   </li>
   <li>
-      <button type="submit" class="button-main" value="Send This" required>Send Request</button>
+      <button type="submit" class="button-main" value="Send This">Send Request</button>
   </li>
   </ul>
   </form>
