@@ -2,7 +2,7 @@
 
 Web Programming with Python and JavaScript
 
-Check the website here: https://niconacht.github.io/Tattooist_page/
+Check the website here: https://niconacht.github.io/Tattooist_Website/
 This project is the first of the HarvardX CS50web course assignments.
 
 The requirements are and are fulfilled as follows:
